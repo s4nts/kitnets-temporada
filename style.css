@@ -5,23 +5,15 @@ body {
     display: flex;
     flex-direction: column;
     
-
-
-
-
-
-
 header {
     background-color: #fff;
     color: #333;
     padding: 20px;
+    margin-bottom: 50px;
+    height: 80px;
+    width: 100%;
     text-align: center;
-}
-
-      
-
-        
-           
+}     
         
 .title-home { 
     display: flex;
@@ -44,9 +36,6 @@ header {
     height: 100%;
 }
         
-        
-    
-
 .content-main {
     display: flex;
     flex-direction: row;
@@ -61,8 +50,8 @@ header {
 
 .group-div {
     background-color: #508a9b50;
-    padding: 20px;
-    margin: 20px;
+    padding: 8px;
+    margin: 5px;
     border-radius: 10px;
 }
 
@@ -79,8 +68,8 @@ header {
 }
 
 .imagens-locations img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     padding: 5px;
     border-radius: 10px;
     text-align: center;
@@ -104,6 +93,7 @@ header {
     border-radius: 10px;
     justify-content: center;
     border-style: none;
+    transition: background-color 0.5s ease;
 }
 
 .button-content a {
@@ -114,6 +104,7 @@ header {
     color: #fff;
     font-size: 12px;
     padding: 5px 10px 5px 10px ;
+    transition: color 0.5s ease;
 }
 
 .buttons-all {
@@ -130,14 +121,13 @@ header {
     color: #333;
 }
 
-
-
 .footer {
   background-color: #333;
   color: #fff;
   padding: 20px 0 20px 0;
   text-align: center;
   margin-top: 50px;
+  width: 100%;
 }
 
 .footer ul {
@@ -159,3 +149,5 @@ header {
 .footer a:hover {
   color: #ccc;
 }
+
+@
