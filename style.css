@@ -150,4 +150,17 @@ header {
   color: #ccc;
 }
 
-@
+/* Para resoluções até 375px */
+@media only screen and (max-width: 375px) {
+    /* Insira as modificações aqui */
+}
+
+/* Para resoluções de 376px até 1024px */
+@media only screen and (min-width: 376px) and (max-width: 1024px) {
+    /* Insira as modificações aqui */
+}
+
+/* Para resoluções acima de 1024px */
+@media only screen and (min-width: 1025px) {
+    /* Insira as modificações aqui */
+}
